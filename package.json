@@ -1,0 +1,23 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "Movie API with Graphql",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MISEONGKIM/movieql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MISEONGKIM/movieql/issues"
+  },
+  "homepage": "https://github.com/MISEONGKIM/movieql#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
