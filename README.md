@@ -2,8 +2,13 @@
 Movie API with Graphql
 
 ### REST API
-    REST API는 모든 resource들을 하나의 endpoint에 연결하고 연결된 endpoint는 resource와 관련된 내용만 관리하게 하는 것. 모든 resource는 일반적으로 http 인터페이스인 GET, POST, PUT, DELETE 4개의 메소드로 접근 되어야함. 
-    
+    REST API는 모든 resource들을 하나의 endpoint에 연결하고 연결된 endpoint(:기본적으로 서버 또는 서비스의 URL)는 resource와 관련된 내용만 관리하게 하는 것. 모든 resource는 일반적으로 http 인터페이스인 GET, POST, PUT, DELETE 4개의 메소드로 접근 되어야함. 
+
+        ** API : 두 시스템 간의 통신을 허용하는 전체 프로토콜 집합. 간단히 말해서 타사 공급 업체가 서로 쉽게 인터페이스 할 수 있는 프로그램을 작성할 수 있도록하는 기술.
+        
+        ** endpoint : 두 시스템이 상호 작용할 때 통신 채널의 진입 점입니다. API가 요청을 보내는 위치와 응답이 발생하는 위치. 즉, API가 서버의 리소스에 액세스 할 수 있도록하는 URL.  
+
+    endpoint : /user
     GET /user
     POST /user
     DELETE /user
@@ -25,7 +30,7 @@ Movie API with Graphql
     /notification/
     /wish/
 
-### Graphql
+### GraphQL
      * Graphql로 위와 같은 문제 해결가능 
      * Graphql은 한 query에서 정확하게 원하는 정보만 받을 수 있다 !
      * Graphql의 Playground : 내 데이터베이스를 테스트하게 해주는 것 
