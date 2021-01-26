@@ -3,7 +3,7 @@ Movie API with Graphql
 
 ### REST API
     REST API는 모든 resource들을 하나의 endpoint에 연결하고 연결된 endpoint는 resource와 관련된 내용만 관리하게 하는 것. 모든 resource는 일반적으로 http 인터페이스인 GET, POST, PUT, DELETE 4개의 메소드로 접근 되어야함. 
-    endpoint : /user
+    
     GET /user
     POST /user
     DELETE /user
